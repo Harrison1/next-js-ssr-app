@@ -1,0 +1,22 @@
+{
+  "name": "harrisonmcguire",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Harrison McGuire",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node server",
+    "build": "next build",
+    "export": "next export"
+  },
+  "dependencies": {
+    "cross-env": "^5.1.3",
+    "express": "^4.16.2",
+    "isomorphic-unfetch": "^2.0.0",
+    "next": "^4.2.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-markdown": "^3.1.4",
+    "serve": "^6.4.3"
+  }
+}
